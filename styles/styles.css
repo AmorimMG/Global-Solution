@@ -1,0 +1,38 @@
+* {
+  --pink-600: #db2777
+}
+
+.bg-pink {
+  background: var(--pink-600) !important;
+}
+
+.text-pink {
+  color: var(--pink-600) !important;
+}
+
+.border-pink {
+  border-color: var(--pink-600) !important;
+}
+
+.btn-pink {
+  background: var(--pink-600) !important;
+}
+
+.btn-pink:hover {
+  filter: opacity(0.9);
+  transition: filter 0.2s, color 0.2s;
+}
+
+.header {
+  z-index: 10;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

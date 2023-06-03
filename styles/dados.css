@@ -1,0 +1,73 @@
+.bar-container {
+  width: var(--max-width);
+  height: 2rem;
+
+  animation: grow 1s;
+}
+
+.bar {
+  width: 100%;
+  height: 100%;
+
+}
+
+.continent-data-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.continent-data {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem
+}
+
+.continent-data > li {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.continent-data span {
+  animation: show 1.5s
+}
+
+.legend {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.square {
+  width: 2rem;
+  height: 2rem
+}
+
+@keyframes grow {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: var(--max-width)
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1
+  }
+}

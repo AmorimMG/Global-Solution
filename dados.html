@@ -5,13 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/dados.css">
   <title>FIAP Solutions</title>
 </head>
 <body class="bg-dark text-light">
 
   <!-- Header -->
-  <header class="container-fluid border-bottom border-2 border-pink p-2">
+  <header class="container-fluid border-bottom border-2 border-pink p-2 position-sticky top-0 bg-dark">
     <nav class="container d-flex justify-content-between">
       <a href="/" class="nav-link">
         <h2 class="text-pink">FIAP Solutions</h2>
@@ -31,11 +32,73 @@
   </header>
   <!-- Header -->
   
-  <main>
-    <h1>Dados</h1>
+  <main class="container py-3">
+    <h2>Insegurança alimentar mundial</h2>
+    <p class="mt-4">Você sabia que hoje, a população mundial já ultrapassa 8 milhões de pessoas? A ONU estima que pelo menos 2,3 milhões dessas pessoas se encontram em situação de segurança alimentar grave ou moderada, isto é, pelo menos 28% das pessoas no planeta.</p>
+    <p class="mt-4">Veja abaixo dados mais elaborados sobre a quantidade de pessoas nessa situação:</p>
+    <form action="" class="mt-4 border-top border-2 py-4" onsubmit="handleSubmit(event)">
+      <div>
+        <label for="continent-select" class="mb-2 form-label"> Selecione um continente:</label>
+        <select id="continent-select" class="form-select w-auto mb-4" aria-label="Select a continent">
+          <option value="1">África</option>
+          <option value="2">América Latina e Caribe</option>
+          <option value="3">Ásia</option>
+          <option value="4">Oceania</option>
+          <option value="5">América do Norte e Europa</option>
+          <option value="6">Mundo</option>
+        </select>
+      </div>
+      
+      <button type="submit" class="btn btn-pink text-light">Confirmar</button>
+    </form>
+
+    <div id="continent-data-container" class="border-top border-2 py-4 continent-data-container">
+      <h3>África</h3>
+      <ul class="continent-data">
+        <li>
+          <div class="bar-container" style="--max-width: 23.4%">
+            <div class="bar bg-pink"></div>
+          </div> 
+          <span>23,4%</span>
+        </li>
+        <li>
+          <div class="bar-container" style="--max-width: 34.5%">
+            <div class="bar bg-light"></div>
+          </div> 
+          <span>34,5%</span>
+        </li>
+        <small class="text-white-50">Fonte: ONU - O Estado de Segurança Alimentar e Nutrição no Mundo (2022) | Números referentes a 2021</small>
+      </ul>
+      <div class="legend">
+        <div class="legend-item">
+          <div class="square bg-light"></div> <span>Insegurança alimentar moderada</span>
+        </div>
+        <div class="legend-item">
+          <div class="square bg-pink"></div> <span>Insegurança alimentar grave</span>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      Analisando os dados da pesquisa da ONU O Estado de Segurança Alimentar e Nutrição no Mundo (2022), podemos fazer algumas observações:
+    </p>
+    <ol>
+      <li>
+        Embora o percentual de pessoas nas situações descritas na Ásia não seja tão alarmante quando da África, a Ásia é o continente com maior número de pessoas em situação de insegurança alimentar moderada ou grave. São ao todo <b>1,151 bilhões de pessoas</b>.
+      </li>
+      <li>
+        Embora pela análise dos dados percentuais a região da América Latina e Caribe pareça a segunda mais afetada, é na verdade a terceira. Aqui são ao todo <b>267,7 milhões de pessoas</b>. 
+      </li>
+      <li>
+        Embora o percentual de pessoas em estado de Insegurança Alimentar moderada ou grave seja menor na América do Norte e Europa, é na Oceania que temos menos pessoas afetadas. Lá temos <b>5,6 milhões de pessoas</b> enquanto na América do Norte e Oceania temos <b>89,1 milhões de pessoas</b>
+      </li>
+    </ol>
   </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <footer>Footer</footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="index.js">
+  </script>
 </body>
 </html>
