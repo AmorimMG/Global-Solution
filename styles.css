@@ -1,0 +1,15 @@
+* {
+  --pink-600: #db2777
+}
+
+.bg-pink {
+  background: var(--pink-600) !important;
+}
+
+.text-pink {
+  color: var(--pink-600) !important;
+}
+
+.border-pink {
+  border-color: var(--pink-600) !important;
+}
