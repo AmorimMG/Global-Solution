@@ -1,0 +1,5 @@
+.img-container {
+  width: fit-content; 
+  border: 15px solid #fff;
+  margin: 15px auto
+}
