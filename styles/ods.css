@@ -1,0 +1,22 @@
+#logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red 1px; */
+}
+
+#logo-ods {
+    width: 60%;
+    height: auto;
+    min-width: 120px;
+    max-width: 360px;
+}
+
+#title-ods {
+    padding: 16px 20px;
+    margin: 0;
+}
+
+.accordion-body {
+    font-size: 12px;
+}
