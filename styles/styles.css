@@ -27,6 +27,19 @@
   z-index: 10;
 }
 
+#loader {
+  z-index: 11;
+  background: black;
+  background-image: url('../images/loader.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 939px;
+}
+
+#container {
+  display: none;
+}
+
 body {
   min-height: 100vh;
   display: flex;
