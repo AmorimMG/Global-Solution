@@ -44,8 +44,8 @@
         
     .image{
         width: 100%;
-        background-image: url('../images/parallax.jpg') !important;
-        background-attachment: fixed;
+        background-image: url('https://images.unsplash.com/photo-1507427100689-2bf8574e32d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80') !important;
+/*         background-attachment: fixed; */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -72,10 +72,10 @@
         
     .image{
         width: 100%;
-        background-image: url('../images/parallax.jpg') !important;
+        background-image: url('https://images.unsplash.com/photo-1615226161285-f35400fcd3b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80') !important;
         border-right: 5px solid rgb(58, 226, 43);
         height: 690px;
-        background-attachment: fixed;
+/*         background-attachment: fixed; */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -100,10 +100,10 @@
         
     .image{
         width: 100%;
-        background-image: url('https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-2.svg') !important;
+        background-image: url('https://inovasocial.com.br/wp-content/uploads/2018/05/ods-02-objetivo-desenvolvimento-sustentavel-inovasocial.png') !important;
         border-right: 5px solid rgb(43, 220, 226);
         height: 690px;
-        background-attachment: fixed;
+/*         background-attachment: fixed; */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -128,10 +128,10 @@
         
     .image{
         width: 100%;
-        background-image: url('../images/parallax.jpg') !important;
+        background-image: url('https://bernardmarr.com/wp-content/uploads/2021/11/What-Is-3D-Printed-Food.jpg') !important;
         border-right: 5px solid rgb(226, 43, 104);
         height: 700px;
-        background-attachment: fixed;
+/*         background-attachment: fixed; */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
