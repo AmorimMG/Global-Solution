@@ -174,3 +174,12 @@ function showContinent(selectedContinent){
   const continentDataContainer = document.getElementById('continent-data-container')
   continentDataContainer.innerHTML = dadosContinentes[selectedContinent]
 }
+
+function showContainer() {
+  document.getElementById('loader').style.display = 'none';
+  document.getElementById('container').style.display = 'block';
+}
+
+function hideContainer() {
+  setTimeout(showContainer, 2000);
+}
