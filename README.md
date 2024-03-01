@@ -7,7 +7,7 @@
 
 ## 🚀 Projeto
 
-Texto Breve sobre o projeto.
+Projeto da Fiap que busca mostrar sobre os problemas alimentares do mundo!
 
 
 ## 🤝 Colaboradores
